@@ -1,3 +1,4 @@
+
 # Clima Tempo ⛅
 
 ![Clima Tempo Preview](https://images.unsplash.com/photo-1534088568595-a066f410bcda?auto=format&fit=crop&w=2070&q=80)
@@ -33,37 +34,37 @@ Uma aplicação web moderna para consulta de previsão do tempo, desenvolvida co
 ## 🛠️ Instalação
 
 1. Clone o repositório:
-\`\`\`bash
-git clone https://github.com/joaomgsb/Clima-Tempo.git
-\`\`\`
+   ```bash
+   git clone https://github.com/joaomgsb/Clima-Tempo.git
+   ```
 
 2. Instale as dependências:
-\`\`\`bash
-cd Clima-Tempo
-npm install
-\`\`\`
+   ```bash
+   cd Clima-Tempo
+   npm install
+   ```
 
-3. Crie um arquivo \`.env\` na raiz do projeto e adicione sua chave da API do OpenWeather:
-\`\`\`env
-VITE_API_KEY=sua_chave_api_aqui
-\`\`\`
+3. Crie um arquivo `.env` na raiz do projeto e adicione sua chave da API do OpenWeather:
+   ```env
+   VITE_API_KEY=sua_chave_api_aqui
+   ```
 
 4. Inicie o servidor de desenvolvimento:
-\`\`\`bash
-npm run dev
-\`\`\`
+   ```bash
+   npm run dev
+   ```
 
 ## 📦 Estrutura do Projeto
 
-\`\`\`
+```plaintext
 src/
 ├── components/        # Componentes React reutilizáveis
-├── hooks/            # Hooks customizados
-├── services/         # Serviços e integrações com APIs
-├── types/            # Definições de tipos TypeScript
+├── hooks/             # Hooks customizados
+├── services/          # Serviços e integrações com APIs
+├── types/             # Definições de tipos TypeScript
 ├── App.tsx           # Componente principal
-└── main.tsx         # Ponto de entrada da aplicação
-\`\`\`
+└── main.tsx          # Ponto de entrada da aplicação
+```
 
 ## 🔧 Componentes Principais
 
@@ -90,9 +91,9 @@ A aplicação é totalmente responsiva e se adapta a diferentes tamanhos de tela
 ## 🤝 Contribuindo
 
 1. Faça um fork do projeto
-2. Crie uma branch para sua feature (\`git checkout -b feature/AmazingFeature\`)
-3. Commit suas mudanças (\`git commit -m 'Add some AmazingFeature'\`)
-4. Push para a branch (\`git push origin feature/AmazingFeature\`)
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
 ## 📄 Licença
@@ -101,7 +102,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👤 Autor
 
-Seu Nome - [@joaomgsb](https://github.com/joaomgsb)
+João Mateus - [@joaomgsb](https://github.com/joaomgsb)
 
 ## 🙏 Agradecimentos
 
