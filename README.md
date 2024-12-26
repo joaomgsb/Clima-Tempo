@@ -34,12 +34,12 @@ Uma aplicação web moderna para consulta de previsão do tempo, desenvolvida co
 
 1. Clone o repositório:
 \`\`\`bash
-git clone https://github.com/seu-usuario/clima-tempo.git
+git clone https://github.com/joaomgsb/Clima-Tempo.git
 \`\`\`
 
 2. Instale as dependências:
 \`\`\`bash
-cd clima-tempo
+cd Clima-Tempo
 npm install
 \`\`\`
 
